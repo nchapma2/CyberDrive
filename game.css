@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  background: url('./background.jpg') ;
+  background-size: cover;
+}
+
+.canvas-holder {
+  display: flex;
+  height: 800px;
+  background: black;
+  border: 3px solid #18CAE6;
+  width: 70%;
+  margin: auto;
+}
+
+#canvas {
+  border: 3px solid #18CAE6;
+  margin: auto;
+  margin-top: 200px
+}
