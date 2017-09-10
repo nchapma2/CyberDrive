@@ -1,17 +1,22 @@
 body {
   display: flex;
-  background: url('./background.jpg') ;
+  background: url('./images/background.jpg') ;
   background-size: cover;
 }
 
 .canvas-holder {
   display: flex;
   flex-direction: column;
-  height: 98%;
+  height: 100%;
   background: black;
   border: 3px solid #18CAE6;
   width: 70%;
   margin: auto;
+}
+
+.logo {
+  position: absolute;
+  align-self: center;
 }
 
 #player-select-div {
@@ -21,9 +26,9 @@ body {
   color: white;
   align-self: center;
   position: absolute;
-  margin-top: 12.5%;
+  margin-top: 17.5%;
   background: black;
-  border: 3px solid #18CAE6
+  border: 3px solid #18CAE6;
 }
 
 #flash-player-select {
@@ -50,6 +55,6 @@ body {
   border: 3px solid #18CAE6;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 7%;
+  margin-bottom: 15px;
 }
