@@ -11,6 +11,20 @@
       <img class='logo' src='./images/logo.png'></img>
       <p id='countdown'></p>
       <div id='player-select-div'>
+        <div id='player-details'>
+          <div id='player-id'>Player 1</div>
+          <form id='player-form' name='player-details' method='POST'>
+            <input class='name' placeholder='Driver Name' type='text'/>
+            <select class="driver-color" name="colors">
+              <option selected disabled>Color</option>
+              <option value="rgba(246,106,53, .5)">Orange</option>
+              <option value="rgba(255,230,77, .5)">Yellow</option>
+              <option value="rgba(179, 5, 5, .5)">Red</option>
+              <option value="rgba(107, 4, 159, 0.5)">Purple</option>
+            </select>
+            <input class='ready' type='submit' value='Ready'/>
+          </form>
+        </div>
         <div id='flash-player-select'>
           <span class='player-select'>1 or 2 Players</span>
           <span>Press 1 or 2</span>
