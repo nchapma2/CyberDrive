@@ -140,6 +140,10 @@ ul {
   align-self: center;
 }
 
+li {
+  padding: 5px;
+}
+
 a {
   color: white;
   text-decoration: none;
