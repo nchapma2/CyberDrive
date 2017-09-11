@@ -95,6 +95,12 @@ body {
   margin-bottom: 15px;
 }
 
+.controls {
+  padding-top: 3px;
+  height: 20px;
+  font-size: 18px
+}
+
 .name {
   outline: none;
   border: none;
