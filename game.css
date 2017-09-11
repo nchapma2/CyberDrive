@@ -1,8 +1,9 @@
-body div span p h1 h2 h3 img link title head button header canvas option select input{
+body div span a li ul p h1 h2 h3 img link title head button header canvas option select input{
   font-family: 'Orbitron', sans-serif;
 }
 body {
   display: flex;
+  flex-direction: column;
   background: url('./images/background.jpg') ;
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
@@ -115,4 +116,39 @@ body {
   color: white;
   border: 1px solid #18CAE6;
   border-radius: 3px;
+}
+
+.footer {
+  height: 100px;
+  width: 400px;
+  align-self: center;
+  background: black;
+  border-bottom:3px solid #18CAE6;
+  border-left:3px solid #18CAE6;
+  border-right:3px solid #18CAE6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-name {
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+ul {
+  align-self: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #18CAE6;
 }
